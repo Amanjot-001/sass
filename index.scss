@@ -1,5 +1,27 @@
+@import 'variables';
+
 h1 {
-    a {
-        color: red;
-    }
+    color: $primary;
+}
+
+a {
+    color: $secondary;
+}
+
+button {
+    color: white;
+    border: 0;
+    background-color: $primary;
+}
+
+.error {
+    color: $error;
+    border-color: $error;
+    border-style: solid;
+}
+
+.notification {
+    color: $secondary;
+    border-color: $secondary;
+    border-style: solid;
 }
